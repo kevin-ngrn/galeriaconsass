@@ -1,0 +1,12 @@
+main {
+  padding: 20px;
+  margin: 20px;
+  background-color: bisque; }
+  main h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace; }
+  main div {
+    display: flex; }
+    main div img {
+      width: 50%; }
