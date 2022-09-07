@@ -1,5 +1,5 @@
 main {
-  background-color: lightseagreen;
+  background-color: bisque;
   padding: 20px;
   margin: 20px; }
   main h1 {
@@ -13,4 +13,5 @@ main {
       width: 50%; }
 
 footer {
-  background-color: blue; }
+  font-size: x-large;
+  background-color: lightblue; }
