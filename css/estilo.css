@@ -9,4 +9,5 @@ main {
   main div {
     display: flex; }
     main div img {
+      padding: 10px;
       width: 50%; }

@@ -1,17 +1,4 @@
-main{
-    padding: 20px;
-    margin: 20px;
-    background-color: bisque;
-    h1{
-        display: flex;
-        justify-content: center;
-        font-family: 'Courier New', Courier, monospace;
-        }
-    div{
-        display:flex;
-        & img{
-        width: 50%;
-        }
-    }
-    
-}
+@import "colores";
+@import "maingaleria";
+
+
