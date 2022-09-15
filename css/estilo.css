@@ -1,17 +1,32 @@
-main {
+.mainHome, .mainGaleria {
   background-color: bisque;
-  padding: 20px;
-  margin: 20px; }
-  main h1 {
+  padding: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  .mainHome h1, .mainGaleria h1 {
     display: flex;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace; }
-  main div {
+
+.mainGaleria {
+  border: solid; }
+  .mainGaleria h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace; }
+  .mainGaleria .imgGaleria {
     display: flex; }
-    main div img {
+    .mainGaleria .imgGaleria img {
       padding: 10px;
       width: 50%; }
 
-footer {
-  font-size: x-large;
+@media only screen and (max-width: 768px) {
+  .mainGaleria .imgGaleria {
+    flex-direction: column; }
+    .mainGaleria .imgGaleria img {
+      width: 100%; } }
+
+.footer {
   background-color: lightblue; }
+  .footer .logosRedes {
+    margin: 10px; }

@@ -1,0 +1,35 @@
+.mainHome{
+    background-color: $bgColorMain;
+    padding: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: map-get($map: estilos, $key:tipografia)}
+}
+
+.mainGaleria{
+    @extend .mainHome;
+    border: solid;
+    h1{
+        display: flex;
+        justify-content: center;
+        }
+    .imgGaleria{
+        display:flex;
+        & img{
+        padding: 10px;
+        width: 50%;}
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .mainGaleria{
+        & .imgGaleria{
+            flex-direction: column;
+            & img{
+                width: 100%;}
+        }
+    }
+}
