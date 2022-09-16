@@ -1,0 +1,4 @@
+@mixin displayfont($display,$justify,$font-w){
+    display: $display;
+    justify-content: $justify;
+    font-weight: $font-w;}

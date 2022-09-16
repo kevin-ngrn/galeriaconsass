@@ -3,15 +3,18 @@
     padding: 4%;
     margin-top: 4%;
     margin-bottom: 4%;
-    h1{
-        display: flex;
-        justify-content: center;
-        font-family: 'Courier New', Courier, monospace;
+    color: map-get($map: $estilos, $key: colorLetras);
+    h1, p{
+        @include displayfont (flex, center, bold);
+        font-family: 'Courier New', Courier, monospace;}
+    img{
+        width: 100%;}
 }
 
 .mainGaleria{
     @extend .mainHome;
     border: solid;
+    border-color: map-get($map: $estilos, $key: colorBorders);
     h1{
         display: flex;
         justify-content: center;

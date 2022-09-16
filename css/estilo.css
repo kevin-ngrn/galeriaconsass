@@ -2,18 +2,22 @@
   background-color: bisque;
   padding: 4%;
   margin-top: 4%;
-  margin-bottom: 4%; }
-  .mainHome h1, .mainGaleria h1 {
+  margin-bottom: 4%;
+  color: cadetblue; }
+  .mainHome h1, .mainGaleria h1, .mainHome p, .mainGaleria p {
     display: flex;
     justify-content: center;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace; }
+  .mainHome img, .mainGaleria img {
+    width: 100%; }
 
 .mainGaleria {
-  border: solid; }
+  border: solid;
+  border-color: black; }
   .mainGaleria h1 {
     display: flex;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace; }
+    justify-content: center; }
   .mainGaleria .imgGaleria {
     display: flex; }
     .mainGaleria .imgGaleria img {
@@ -30,3 +34,6 @@
   background-color: lightblue; }
   .footer .logosRedes {
     margin: 10px; }
+  .footer .gmail {
+    display: -webkit-inline-box;
+    margin-top: 10px; }
